@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+
+
+
+#root{
+
+
+    width: 100vw;
+    height: 100vh;
+
+background-image:
+url(./images/фон2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position:top ;
+}
+ 
+#root img{
+width: 150px;
+height: 100px;
+object-fit: contain;
+}
