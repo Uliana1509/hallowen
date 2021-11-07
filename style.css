@@ -33,14 +33,28 @@ body {
 
   25% {
     top: 50%;
-    left: calc(100% - 150px);
+    left: calc(100% - 1000px);
   }
   50% {
     top: 50%;
-    bottom: calc(100% - 300px);
+    bottom: calc(100% - 1000px);
   }
   100% {
     top: 0;
     left: 0;
   }
+}
+.left-top {
+  position: absolute;
+  width: 33vw;
+  height: 33vw;
+  top: 0;
+  left: 0;
+}
+.right-bottom {
+  position: absolute;
+  width: 33vw;
+  height: 33vw;
+  right: 0;
+  bottom: 0;
 }
